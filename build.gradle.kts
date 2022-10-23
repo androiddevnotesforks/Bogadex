@@ -16,16 +16,16 @@ buildscript {
     }
     dependencies {
         // -- Core plugins
-        classpath("com.android.tools.build:gradle:7.2.1")
+        classpath("com.android.tools.build:gradle:7.3.1")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
 
         // -- Application plugins
         classpath("com.google.dagger:hilt-android-gradle-plugin:$daggerVersion")
 
         // -- Services & Monitoring
-        classpath("com.google.gms:google-services:4.3.10")
-        classpath("com.google.firebase:firebase-crashlytics-gradle:2.8.1")
-        classpath("com.google.firebase:perf-plugin:1.4.1")
+        classpath("com.google.gms:google-services:4.3.14")
+        classpath("com.google.firebase:firebase-crashlytics-gradle:2.9.2")
+        classpath("com.google.firebase:perf-plugin:1.4.2")
     }
 }
 
